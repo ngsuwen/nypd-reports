@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-container{
+    display:flex;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 0.2em;
+}
+
+div{
+    margin: 15px 2px;
+}
+
+div[id^="div2"] {
+    max-width: 600px;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+div[id^="div1"] {
+    border-bottom: 1px solid rgb(134, 134, 134);
+    margin: 5px;
+    padding: 10px;
+}
+
+h1 {
+    padding-left: 15px;
+}
+
+input[type*='submit'] {
+    background-color: #4C6C9F;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 0.5em;
+}
+
+input[type*='number'] {
+    border: 0.1em solid #293A57;
+    padding: 10px;
+    margin: 4px 2px;
+    border-radius: 0.5em;
+}
